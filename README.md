@@ -20,7 +20,7 @@ $ git clone https://github.com/numasa/nuxt_typescript_on_docker.git
 $ cd nuxt_typescript_on_docker
 ```
 
-2. yarn install
+2. build & yarn install
 ```bash
 $ docker-compose run vue yarn install
 ```
