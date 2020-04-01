@@ -20,11 +20,15 @@ $ git clone https://github.com/numasa/nuxt_typescript_on_docker.git
 $ cd nuxt_typescript_on_docker
 ```
 
-2. service run on localhost
+2. yarn install
+```bash
+$ docker-compose run vue yarn install
+```
+
+3. service run on localhost
 ```bash
 $ docker-compose run --service-ports vue yarn run dev
 ```
 
-3. access localhost:3000 by browser
-</br>
-http://localhost:3000/
+4. access localhost:3000 by browser
+- [http://localhost:3000/](http://localhost:3000/)
