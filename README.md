@@ -17,6 +17,7 @@ Nuxt.js / Typescript / docker のベースプロジェクト
 1. git clone
 ```bash
 $ git clone https://github.com/numasa/nuxt_typescript_on_docker.git
+$ cd nuxt_typescript_on_docker
 ```
 
 2. service run on localhost
